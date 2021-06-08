@@ -152,10 +152,8 @@ class Graphing(commands.Cog):
 
 
 
-        print(xlist)
 
         ylist = np.array([finaly*slope + b for finaly in xlist])
-        print(ylist)
 
 
         plt.plot(0, b, color='black', marker="o")
